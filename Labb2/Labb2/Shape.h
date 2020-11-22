@@ -6,11 +6,10 @@
 class Shape {
 public:
 	virtual double GetArea() const = 0;
-	virtual std::string GetColour() const = 0;
+	virtual std::string GetColour() const { return Colour; };
 	void setColour(const std::string& s) { Colour = s; }
 
 private:
 	std::string Colour;
-	double area;
 };
 #endif

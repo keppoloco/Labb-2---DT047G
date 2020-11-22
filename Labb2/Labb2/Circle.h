@@ -5,10 +5,9 @@
 class Circle : public Shape {
 public:
 	Circle() = delete;
-	Circle(double r) : radia(r){}
+	Circle(double r);
 	double GetArea() const override;
-	std::string GetColour() const override;
-
+	double GetRadia() const { return radia; }
 private:
 	double radia;
 };
