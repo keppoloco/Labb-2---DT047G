@@ -143,12 +143,14 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Parallelepiped.cpp" />
     <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="RoundedRectangle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Circle.h" />
     <ClInclude Include="Cylinder.h" />
     <ClInclude Include="Parallelepiped.h" />
     <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="RoundedRectangle.h" />
     <ClInclude Include="Shape.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,14 +1,23 @@
 #include "Cylinder.h"
 #include "Parallelepiped.h"
+#include "RoundedRectangle.h"
+#include <vector>
 #include <iostream>
 
 int main()
 {
-	std::cout << "Hello, World!" << std::endl;
+	Circle circle_(2);
 
-	parallelepiped p(3, 2, 1);
-	std::cout << p.GetArea() << '\n';
+	Cylinder Cylinder_(3, 2);
 
+	Rectangle Rectangle_(3, 4);
+
+	parallelepiped Parallelepiped_(5, 4, 2);
+
+	RoundedRectangle RoundedRectangle_(6, 3, 2);
+
+
+	
 
 	return 0;
 }
