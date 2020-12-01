@@ -5,7 +5,7 @@
 
 class Shape {
 public:
-	Shape() : ptr(nullptr), size_(0) {}
+	Shape() : ptr(nullptr) {}
 	virtual double GetArea() const = 0;
 	virtual std::string GetColour() const { return Colour; };
 	void setColour(const std::string& s) { Colour = s; }
@@ -14,7 +14,5 @@ public:
 private:
 	std::string Colour;
 	int* ptr;
-	size_t size_;
-	static int count;
 };
 #endif
